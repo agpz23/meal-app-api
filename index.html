@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,
+        initial-scale=1.0">
+        <title>Find Meal Based On Your Ingredients</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "style.css">
+
+    </head>
+    <body>
+        
+        <div class = "container">
+            <div class = "meal-wrapper">
+              <div class = "meal-search">
+                <h2 class = "title">Find Meals With Your Ingredients</h2>
+                <blockquote>People who love to eat are always the best people.<br>
+                  <cite>- Julia Child</cite>
+                </blockquote>
+        
+                <div class = "meal-search-box">
+                  <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                  <button type = "submit" class = "search-btn btn" id = "search-btn">
+                    <i class = "fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+        
+              <div class = "meal-result">
+                <h2 class = "title">Your Search Results:</h2>
+                <div id= "meal">
+                </div>
+              </div>
+        
+        
+              <div class = "meal-details">
+                <!-- close recipe button -->
+                <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                  <i class = "fas fa-times"></i>
+                </button>
+        
+                <!-- recipe info -->
+                <div class = "meal-details-content">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+        
+          <script src = "script.js"></script>
+        </body>
+        </html>
